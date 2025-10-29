@@ -9,7 +9,7 @@
 
 ## Installation
 ```bash
-git clone https://github.com/AbidDevelope/timely.git
+git clone https://github.com/AbidDevelope/rent-pe-do.git
 cd timely
 composer install
 npm install
