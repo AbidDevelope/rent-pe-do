@@ -1,0 +1,133 @@
+:root {
+  --theme_color: #5e72e4;
+}
+
+/* LogIn */
+.login-section {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  background: transparent;
+  background-image: url("../../images/backgroundimage.jpg");
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-logo
+{
+  max-height: 5rem;
+}
+
+.login-section .page-content {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.login-section .card {
+  width: 450px;
+  border-radius: 15px !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.login-section .pageTitle {
+  font-size: 24px;
+  color: var(--main-color);
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.login-section input::placeholder {
+  font-size: 14px !important;
+}
+
+.pagePera {
+  font-size: 14px;
+  color: var(--theme_color);
+}
+
+.loginButton {
+  width: 100%;
+  padding: 12px 0;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background: var(--theme_color);
+  color: #fff;
+  transition: 0.3s;
+}
+
+.loginButton:hover {
+  background: var(--theme_color);
+  color: #fff;
+}
+
+.smallBox {
+  width: 20px;
+  height: 1px;
+  background: #000;
+}
+
+.shotbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 20px 0;
+}
+
+.shotbox,
+.socallogIcon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 25px 0;
+}
+
+.socallogIcon .iconButton {
+  padding: 9px 22px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  color: #000;
+  border-radius: 8px;
+}
+
+.socallogIcon .iconText {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.socallogIcon i {
+  font-size: 16px;
+}
+
+.passwordInput {
+  position: relative !important;
+}
+
+.eye {
+  position: absolute;
+  right: 10px;
+  top: calc(50% - 10px);
+}
+
+@media (max-width: 580px) {
+  .login-section {
+    display: grid;
+    padding: 40px 0;
+  }
+  .login-section .card {
+    margin: auto;
+    width: 400px;
+  }
+}
+
+@media (max-width: 420px) {
+  .login-section .card {
+    width: 340px;
+  }
+}

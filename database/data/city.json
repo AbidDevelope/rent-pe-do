@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Africa",
+    "shortname": "AF"
+  },
+  {
+    "name": "North America",
+    "shortname": "NA"
+  },
+  {
+    "name": "Oceania",
+    "shortname": "OC"
+  },
+  {
+    "name": "Antarctica",
+    "shortname": "AN"
+  },
+  {
+    "name": "Asia",
+    "shortname": "AS"
+  },
+  {
+    "name": "Europe",
+    "shortname": "EU"
+  },
+  {
+    "name": "South America",
+    "shortname": "SA"
+  },
+  {
+    "name": "Australia",
+    "shortname": "AU"
+  },
+  {
+    "name": "Austria",
+    "shortname": "AT"
+  },
+  {
+    "name": "Azerbaijan",
+    "shortname": "AZ"
+  },
+  {
+    "name": "Bahamas",
+    "shortname": "BS"
+  },
+  {
+    "name": "Bahrain",
+    "shortname": "BH"
+  },
+  {
+    "name": "Bangladesh",
+    "shortname": "BD"
+  },
+  {
+    "name": "Barbados",
+    "shortname": "BB"
+  }
+]
