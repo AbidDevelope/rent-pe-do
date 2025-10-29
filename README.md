@@ -10,7 +10,7 @@
 ## Installation
 ```bash
 git clone https://github.com/AbidDevelope/rent-pe-do.git
-cd timely
+cd rent-pe-do
 composer install
 npm install
 cp .env.example .env
